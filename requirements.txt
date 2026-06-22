@@ -1,0 +1,15 @@
+torch==2.8.0
+torchaudio==2.8.0
+torchvision==0.23.0
+datasets==4.4.2
+einops==0.8.1
+matplotlib==3.10.7
+numpy==2.2.5
+omegaconf==2.3.0
+packaging==25.0
+pandas==2.3.3
+prettytable==3.16.0
+tqdm==4.67.1
+scikit-learn==1.7.2
+scipy==1.15.3
+seaborn==0.13.2

@@ -259,7 +259,7 @@ The model variant study validates the default design choices, including the fixe
 
 ### Sampling Time Comparison
 
-LBDTPP achieves competitive sampling efficiency, and the fast variant further reduces sampling time.
+LBDTPP achieves competitive sampling efficiency, and the fast version further reduces sampling time.
 
 <p align="center">
   <img src="assets/time_comparison.png" alt="Sampling time comparison" width="540">

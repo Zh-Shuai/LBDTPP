@@ -6,10 +6,10 @@ Pytorch implementation of the paper **"Latent Block-Diffusion Temporal Point Pro
 
 ## Overview
 
-LBDTPP is a semi-autoregressive framework for asynchronous event sequence generation. It models event sequences at two levels:
+LBDTPP is a semi-autoregressive framework for asynchronous event sequence generation:
 
-- **Across blocks:** event blocks are generated autoregressively, preserving temporal dependencies and supporting variable-length generation.
-- **Within each block:** multiple event representations are sampled in parallel through Gaussian diffusion in a continuous latent space, reducing event-by-event error accumulation.
+- **Inter-block autoregression:** event blocks are generated autoregressively, preserving temporal dependencies and supporting variable-length generation;
+- **Intra-block diffusion:** multiple event representations are sampled in parallel through Gaussian diffusion in a continuous latent space, reducing event-by-event error accumulation.
 
 This design combines the length flexibility of autoregressive TPPs with the high-quality parallel generation capability of non-autoregressive diffusion models.
 
